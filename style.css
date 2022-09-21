@@ -47,6 +47,7 @@ a{
     position: relative;
     width: 50%;
     height: 100%;
+    color: blue;
 }
 
 .container-heading{
@@ -84,6 +85,7 @@ a{
     font-size: 3rem;
     font-weight: 600;
     text-transform: capitalize;
+    color: #111;
 }
 
 .subtitle{
@@ -180,6 +182,26 @@ a{
 .hero-btn:hover{
     letter-spacing: .20rem;
 }
+.hero-btn1{
+    position: relative;
+    margin: 1rem 0;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all .3s ease;
+}
+.hero-btn1 i{
+    font-optical-sizing: 15rem;
+}
+.hero-btn1:hover{
+    letter-spacing: .20rem;
+}
 .main-btn{
     position: relative;
     margin: 1rem auto;
@@ -204,23 +226,19 @@ a{
 }
 
 
-
-.poster{
-    padding-top: 2rem;
-    height: auto;
-    background: url('img/posterbg.png') center/cover no-repeat;
-    background-attachment: fixed;
-    color: #FFF;
-}
-
 .poster-right{
-    width: 50%;
+    width: 40%;
+    flex: 50%;
     text-align: end;
-    padding-right: 4rem;
+    padding-top: 10px;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+
 }
 .poster-right .main-btn{
     margin: 1rem 0;
